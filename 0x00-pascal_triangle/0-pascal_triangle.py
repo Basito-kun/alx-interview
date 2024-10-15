@@ -1,5 +1,20 @@
 #!/usr/bin/python3
+"""
+A script that prints the Pascal triangle
+"""
+
+
 def pascal_triangle(n):
+    """
+    A funtion that returns the list of integers repr the Pascal triangle
+
+    Parameters:
+    n is an integer
+
+    Returns:
+    The Pascal trianle for n integers
+    """
+
     if n <= 0:
         return []  # To return an empty list is n<=0
 
